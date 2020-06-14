@@ -1,0 +1,4 @@
+docs/_build
+docs/dist
+docs/.vuepress/dist
+node_modules
