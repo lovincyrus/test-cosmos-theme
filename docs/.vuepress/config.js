@@ -6,10 +6,15 @@ module.exports = {
     repo: "cosmos/sdk-tutorials", // repo for gutter.editLink & gutter.github
     docsRepo: "cosmos/sdk-tutorials", // docsRepo for gutter.editLink & gutter.github
     docsDir: "docs",
-    // label: "sdk",
+    // label: "sdk", // [sdk, ibc, hub, core]
+    // @todo standardize themeConfig.logo / themeConfig.logo.src
+    // cosmos: must include project's themeConfig.label [sdk, ibc, hub, core]
+    // others: if themeConfig.logo then logo only
+    // cosmos: else if no themeConfig.logo then themeConfig.label logo + themeConfig.title
     logo: {
       src: "/logo.svg",
     },
+    // @todo check other existing docs
     sidebar: {
       auto: true,
       nav: [
@@ -109,7 +114,13 @@ module.exports = {
       }
     },
     footer: {
-      questionsText: "Chat with Cosmos developers in <a href='https://discordapp.com/channels/669268347736686612' target='_blank'>Discord</a> or reach out on the <a href='https://forum.cosmos.network/c/tendermint' target='_blank'>SDK Developer Forum</a> to learn more.", // recommended
+      // question: {
+      //   text: "Chat with Cosmos developers in <a href='https://discordapp.com/channels/669268347736686612' target='_blank'>Discord</a> or reach out on the <a href='https://forum.cosmos.network/c/tendermint' target='_blank'>SDK Developer Forum</a> to learn more."
+      // },
+      // newsletter: {
+      //   title: "default title"
+      //   // @todo add newsletter form config
+      // },
       logo: "/logo.svg",
       textLink: {
         text: "vuepress-theme-cosmos",
@@ -142,7 +153,7 @@ module.exports = {
         }
       ],
       smallprint:
-        `© ${new Date().getFullYear()} 🚀Inc.`,
+        `© ${new Date().getFullYear()} 🚀 Inc.`,
       links: [
         {
           title: "Documentation",
