@@ -2,6 +2,7 @@ module.exports = {
   theme: "cosmos", // required, enable the theme
   title: "Default title", // config default title
   themeConfig: {
+    custom: true,
     editLinks: true, // true for gutter.editLink & gutter.github
     repo: "cosmos/sdk-tutorials", // repo for gutter.editLink & gutter.github
     docsRepo: "cosmos/sdk-tutorials", // docsRepo for gutter.editLink & gutter.github
@@ -22,8 +23,8 @@ module.exports = {
           title: 'Default',
           children: [
             {
-              title: 'Hellochain',
-              path: '/hellochain/tutorial/',
+              title: 'Cheatsheet',
+              path: '/cheatsheet',
               directory: true,
             },
           ]
