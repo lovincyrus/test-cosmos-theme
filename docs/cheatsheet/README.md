@@ -2,12 +2,9 @@
 
 ### Pre-requisite Readings
 
-- [Anatomy of an SDK Application](./app-anatomy.md) {prereq}
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) {prereq}
 
 This is how you use synopsis. {synopsis}
-
-### Learn more
-Learn more about [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### Numbered list
 1. A
