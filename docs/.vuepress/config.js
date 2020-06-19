@@ -2,10 +2,10 @@ module.exports = {
   theme: "cosmos", // required, enable the theme
   title: "Default title", // config default title
   themeConfig: {
-    custom: true,
+    custom: true, // true for default theme
     editLinks: true, // true for gutter.editLink & gutter.github
-    repo: "cosmos/sdk-tutorials", // repo for gutter.editLink & gutter.github
-    docsRepo: "cosmos/sdk-tutorials", // docsRepo for gutter.editLink & gutter.github
+    repo: "lovincyrus/test-cosmos-theme", // repo for gutter.editLink & gutter.github
+    docsRepo: "lovincyrus/test-cosmos-theme", // docsRepo for gutter.editLink & gutter.github
     docsDir: "docs",
     // label: "sdk", // [sdk, ibc, hub, core]
     // @todo standardize themeConfig.logo / themeConfig.logo.src
@@ -17,7 +17,7 @@ module.exports = {
     },
     // @todo check other existing docs
     sidebar: {
-      auto: true,
+      auto: false,
       nav: [
         {
           title: 'Default',
@@ -47,7 +47,7 @@ module.exports = {
             },
             {
               title: "External link",
-              path: "https://github.com/cosmos/vuepress-theme-cosmos"
+              path: "https://default-docs.netlify.app"
             },
           ]
         },
@@ -56,13 +56,13 @@ module.exports = {
           children: [
             {
               title: "External link",
-              path: "https://github.com/cosmos/vuepress-theme-cosmos"
+              path: "https://default-docs.netlify.app"
             },
             {
-              title: "Internal link",
-              path: "/url/path/",
+              title: "Internal link to File",
+              path: "/cheatsheet/markdown-cheat-sheet",
               directory: false
-            },
+            }
           ]
         },
         {
@@ -70,11 +70,11 @@ module.exports = {
           children: [
             {
               title: "Default resource 1",
-              path: "https://github.com/cosmos/vuepress-theme-cosmos"
+              path: "https://github.com/lovincyrus/test-cosmos-theme"
             },
             {
               title: "Default resource 2",
-              path: "https://github.com/cosmos/vuepress-theme-cosmos"
+              path: "https://github.com/lovincyrus/test-cosmos-theme"
             }
           ]
         }
