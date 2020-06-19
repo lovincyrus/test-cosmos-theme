@@ -23,3 +23,6 @@ cd vuepress-theme-cosmos
 pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'
 ```
 Go to your project's directory, run `npm link [PWD]`
+
+## Troubleshooting
+npm unlink and link again if it doesn't load your local `vuepress-theme-cosmos`

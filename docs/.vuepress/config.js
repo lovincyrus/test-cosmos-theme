@@ -20,11 +20,11 @@ module.exports = {
       auto: false,
       nav: [
         {
-          title: 'Default',
+          title: "Default",
           children: [
             {
-              title: 'Cheatsheet',
-              path: '/cheatsheet',
+              title: "Cheatsheet",
+              path: "/cheatsheet",
               directory: true,
             },
           ]
@@ -41,8 +41,8 @@ module.exports = {
           title: "Group 1",
           children: [
             {
-              title: 'Basics',
-              path: '/basics/',
+              title: "Basics",
+              path: "/basics/",
               directory: false,
             },
             {
