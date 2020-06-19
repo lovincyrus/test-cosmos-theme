@@ -25,4 +25,5 @@ pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'
 Go to your project's directory, run `npm link [PWD]`
 
 ## Troubleshooting
-npm unlink and link again if it doesn't load your local `vuepress-theme-cosmos`
+- npm unlink and link again if it doesn't load your local `vuepress-theme-cosmos`
+- [Vuepress hot reload bug](https://github.com/vuejs/vuepress/issues/2392) — `npm i watchpack@1.6.1 --save-dev` if `"vuepress": "1.5.0"`
