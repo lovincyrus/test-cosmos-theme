@@ -1,6 +1,6 @@
 module.exports = {
   theme: "cosmos", // required, enable the theme
-  title: "Default title", // config default title
+  title: "Docs for the docs", // config default title
   themeConfig: {
     custom: true, // true for default theme
     editLinks: true, // true for gutter.editLink & gutter.github
@@ -18,19 +18,20 @@ module.exports = {
     sidebar: {
       // true by default
       // false to disable autoSidebar
-      auto: true,
+      auto: false,
       nav: [
-        // {
-        //   title: "Default",
-        //   children: [
-        //     {
-        //       title: "Cheatsheet",
-        //       path: "/cheatsheet",
-        //       directory: true,
-        //     },
-        //   ]
-        // },
         {
+          title: "Docs for the docs",
+          children: [
+            {
+              title: "Get Started",
+              path: "/get-started",
+              directory: true,
+            },
+          ]
+        },
+        {
+          title: "Demo",
           children: [
             {
               title: "Without a Section Title",
