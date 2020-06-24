@@ -15,24 +15,25 @@ module.exports = {
     logo: {
       src: "/logo.svg",
     },
-    // @todo check other existing docs
     sidebar: {
-      auto: false,
+      // true by default
+      // false to disable autoSidebar
+      auto: true,
       nav: [
+        // {
+        //   title: "Default",
+        //   children: [
+        //     {
+        //       title: "Cheatsheet",
+        //       path: "/cheatsheet",
+        //       directory: true,
+        //     },
+        //   ]
+        // },
         {
-          title: "Default",
           children: [
             {
-              title: "Cheatsheet",
-              path: "/cheatsheet",
-              directory: true,
-            },
-          ]
-        },
-        {
-          children: [
-            {
-              title: "or Without Default Title",
+              title: "Without a Section Title",
               path: "https://github.com/cosmos/vuepress-theme-cosmos"
             }
           ]
@@ -78,33 +79,7 @@ module.exports = {
             }
           ]
         }
-      ],
-      footer: [
-        {
-          label: "sdk",
-          name: "Cosmos<br>SDK",
-          url: "https://docs.cosmos.network/",
-          color: "#5064FB",
-        },
-        {
-          label: "hub",
-          name: "Cosmos<br>Hub",
-          url: "https://hub.cosmos.network/",
-          color: "#BA3FD9",
-        },
-        {
-          label: "ibc",
-          name: "IBC<br>Protocol",
-          url: "https://github.com/cosmos/ics/tree/master/ibc",
-          color: "#E6900A",
-        },
-        {
-          label: "core",
-          name: "Tendermint<br>Core",
-          url: "https://docs.tendermint.com/",
-          color: "#00BB00",
-        },
-      ],
+      ]
     },
     gutter: {
       // title: "Help & Support",
@@ -118,6 +93,7 @@ module.exports = {
       // question: {
       //   text: "Chat with Cosmos developers in <a href='https://discordapp.com/channels/669268347736686612' target='_blank'>Discord</a> or reach out on the <a href='https://forum.cosmos.network/c/tendermint' target='_blank'>SDK Developer Forum</a> to learn more."
       // },
+      // // config newsletter.title for tutorials.cosmos.network
       // newsletter: {
       //   title: "default title"
       //   // @todo add newsletter form config

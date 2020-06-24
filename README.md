@@ -1,8 +1,5 @@
 # test-cosmos-theme
 
-## WIP
-theme source: npm link to [this branch](https://github.com/cosmos/vuepress-theme-cosmos/pull/61)
-
 ## Run dev server
 `npm run serve`
 
