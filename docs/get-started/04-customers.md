@@ -1,3 +1,7 @@
+---
+order: 4
+---
+
 # Customers
 
 ### [Cosmos SDK docs](https://docs.cosmos.network)

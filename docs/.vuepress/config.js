@@ -21,7 +21,6 @@ module.exports = {
       auto: false,
       nav: [
         {
-          title: "Docs for the docs",
           children: [
             {
               title: "Get Started",
@@ -31,10 +30,10 @@ module.exports = {
           ]
         },
         {
-          title: "Demo",
+          title: "Group 0",
           children: [
             {
-              title: "Without a Section Title",
+              title: "External link",
               path: "https://github.com/cosmos/vuepress-theme-cosmos"
             }
           ]
@@ -43,8 +42,8 @@ module.exports = {
           title: "Group 1",
           children: [
             {
-              title: "Basics",
-              path: "/basics/",
+              title: "Customers",
+              path: "/get-started/04-customers",
               directory: false,
             },
             {
@@ -61,8 +60,8 @@ module.exports = {
               path: "https://default-docs.netlify.app"
             },
             {
-              title: "Internal link to File",
-              path: "/cheatsheet/markdown-cheat-sheet",
+              title: "Markdown Extensions",
+              path: "/get-started/02-markdown-extensions",
               directory: false
             }
           ]
@@ -71,11 +70,11 @@ module.exports = {
           title: "Resources",
           children: [
             {
-              title: "Default resource 1",
+              title: "Resource 1",
               path: "https://github.com/lovincyrus/test-cosmos-theme"
             },
             {
-              title: "Default resource 2",
+              title: "Resource 2",
               path: "https://github.com/lovincyrus/test-cosmos-theme"
             }
           ]
@@ -85,6 +84,19 @@ module.exports = {
     gutter: {
       // title: "Help & Support",
       editLink: true,
+      // chat: {
+      //   title: 'Developer Chat',
+      //   text: 'Chat with Ethermint developers on Discord.',
+      //   url: 'https://discordapp.com/channels/669268347736686612',
+      //   bg: '#161931'
+      // },
+      // forum: {
+      //   title: 'Ethermint Developer Forum',
+      //   text: 'Join the Ethermint Developer Forum to learn more.',
+      //   url: 'https://forum.cosmos.network/',
+      //   bg: 'linear-gradient(225deg, #46509F -1.08%, #2F3564 95.88%)',
+      //   logo: 'cosmos'
+      // },
       github: {
         title: "Found an Issue?",
         text: "Help us improve this page by suggesting edits on GitHub."
