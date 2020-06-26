@@ -106,15 +106,17 @@ module.exports = {
       // question: {
       //   text: "Chat with Cosmos developers in <a href='https://discordapp.com/channels/669268347736686612' target='_blank'>Discord</a> or reach out on the <a href='https://forum.cosmos.network/c/tendermint' target='_blank'>SDK Developer Forum</a> to learn more."
       // },
+      // // @todo when we switch to a new newsletter platform
       // // config newsletter.title for tutorials.cosmos.network
       // newsletter: {
       //   title: "default title"
       //   // @todo add newsletter form config
       // },
-      logo: "/logo.svg",
+      logo: "/logo.svg", // recommended ratio: 120 W x 48 H
+      // root homepage of the project
       textLink: {
-        text: "vuepress-theme-cosmos",
-        url: "https://github.com/cosmos/vuepress-theme-cosmos"
+        text: "test-cosmos-theme",
+        url: "https://github.com/lovincyrus/test-cosmos-theme"
       },
       services: [
         {

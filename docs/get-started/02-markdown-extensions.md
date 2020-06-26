@@ -12,6 +12,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur, nequ
 
 ### Import Code Snippets
 
+`+++ https://github.com/cosmos/cosmos-sdk/blob/7d7821b9af132b0f6131640195326aa02b6751db/types/address.go#L229-L243`
+
 +++ https://github.com/cosmos/cosmos-sdk/blob/7d7821b9af132b0f6131640195326aa02b6751db/types/address.go#L229-L243
 
 ### Codeblock
