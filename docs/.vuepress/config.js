@@ -1,3 +1,5 @@
+// config.js
+
 module.exports = {
   theme: "cosmos", // required, enable the theme
   title: "Docs for the docs", // config default title
