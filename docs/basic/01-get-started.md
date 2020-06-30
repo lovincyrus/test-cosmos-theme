@@ -9,7 +9,9 @@ order: 1
 - [Installation](./installation) {prereq}
 
 ## Usage
+
 Minimal config in .vuepress/config.js to enable the theme:
+
 ```js
 module.exports = {
   theme: "cosmos",

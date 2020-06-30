@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 2
 ---
 
 # Features
@@ -17,7 +17,3 @@ This is a warning
 ::: danger
 This is a dangerous warning
 :::
-
-<!-- ::: details
-This is a details block, which does not work in IE / Edge
-::: -->

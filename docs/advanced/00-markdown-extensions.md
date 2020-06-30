@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 0
 ---
 
 # Markdown Extensions
@@ -17,6 +17,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur, nequ
 +++ https://github.com/cosmos/cosmos-sdk/blob/7d7821b9af132b0f6131640195326aa02b6751db/types/address.go#L229-L243
 
 ### Codeblock
+
+The [default supported languages](https://prismjs.com/#supported-languages) by Prismjs are:
+- Markup - `markup`, `html`, `xml`, `svg`, `mathml`, `ssml`, `atom`, `rss`
+- CSS - `css`
+- C-like - `clike`
+- JavaScript - `javascript`, `js`
+
+The manually added languages can be found [here](https://github.com/tendermint/cosmos-ui/blob/develop/src/CodeBlock/CodeBlock.vue#L403)
+
+---
 
 JavaScript source:
 ```js
@@ -61,12 +71,12 @@ export function getLocalVueByMode (mode) {
 Rust source:
 ```rust
 pub trait Actor {
-    fn handle(msgPayload: &[u8]) -> Vec<Msg>;
+  fn handle(msgPayload: &[u8]) -> Vec<Msg>;
 }
 
 pub struct Msg {
-    pub destination: Vec<u8>,
-    pub payload: Vec<u8>,
+  pub destination: Vec<u8>,
+  pub payload: Vec<u8>,
 }
 ```
 
