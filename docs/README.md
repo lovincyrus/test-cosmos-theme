@@ -1,17 +1,19 @@
 ---
 title: vuepress-theme-cosmos Example
 description: This is the description of vuepress-theme-cosmos Example.
-cards:
-  - title: 
+# cards:
+#   - title: 
 footer:
   newsletter: false
-aside: false
+aside: true
 ---
 
 # Default docs
 
 `https://default-docs.netlify.app`
 
-## Contribute
+## Discover
 
-See [this file](https://github.com/lovincyrus/test-cosmos-theme/blob/master/README.md) for more details.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur, neque posuere condimentum eleifend
+
+Learn how to set up a VuePress docs using `vuepress-theme-cosmos`.

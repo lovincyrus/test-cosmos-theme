@@ -2,7 +2,7 @@
 
 module.exports = {
   theme: "cosmos", // required, enable the theme
-  title: "Docs for the docs", // config default title
+  title: "vuepress-cosmos-theme Docs", // config default title
   themeConfig: {
     custom: true, // true for default theme
     editLinks: true, // true for gutter.editLink & gutter.github
@@ -23,29 +23,31 @@ module.exports = {
       auto: false,
       nav: [
         {
+          title: "Basic",
           children: [
             {
-              title: "Get Started",
-              path: "/get-started",
+              title: "Basic",
+              path: "/basic",
               directory: true,
             },
           ]
         },
         {
-          title: "Group 0",
+          title: "Advanced",
           children: [
             {
-              title: "External link",
-              path: "https://github.com/cosmos/vuepress-theme-cosmos"
-            }
+              title: "Advanced",
+              path: "/advanced",
+              directory: true,
+            },
           ]
         },
         {
           title: "Group 1",
           children: [
             {
-              title: "Customers",
-              path: "/get-started/04-customers",
+              title: "Used By",
+              path: "/basic/03-used-by",
               directory: false,
             },
             {
@@ -63,7 +65,7 @@ module.exports = {
             },
             {
               title: "Markdown Extensions",
-              path: "/get-started/02-markdown-extensions",
+              path: "/advanced/00-markdown-extensions",
               directory: false
             }
           ]
@@ -86,19 +88,6 @@ module.exports = {
     gutter: {
       // title: "Help & Support",
       editLink: true,
-      // chat: {
-      //   title: 'Developer Chat',
-      //   text: 'Chat with Ethermint developers on Discord.',
-      //   url: 'https://discordapp.com/channels/669268347736686612',
-      //   bg: '#161931'
-      // },
-      // forum: {
-      //   title: 'Ethermint Developer Forum',
-      //   text: 'Join the Ethermint Developer Forum to learn more.',
-      //   url: 'https://forum.cosmos.network/',
-      //   bg: 'linear-gradient(225deg, #46509F -1.08%, #2F3564 95.88%)',
-      //   logo: 'cosmos'
-      // },
       github: {
         title: "Found an Issue?",
         text: "Help us improve this page by suggesting edits on GitHub."
@@ -122,28 +111,8 @@ module.exports = {
       },
       services: [
         {
-          service: "medium",
-          url: "https://blog.cosmos.network/"
-        },
-        {
-          service: "twitter",
-          url: "https://twitter.com/cosmos"
-        },
-        {
-          service: "linkedin",
-          url: "https://www.linkedin.com/company/tendermint/"
-        },
-        {
-          service: "reddit",
-          url: "https://reddit.com/r/cosmosnetwork"
-        },
-        {
-          service: "telegram",
-          url: "https://t.me/cosmosproject"
-        },
-        {
-          service: "youtube",
-          url: "https://www.youtube.com/c/CosmosProject"
+          service: "github",
+          url: "https://github.com/lovincyrus/test-cosmos-theme/blob/master/README.md"
         }
       ],
       smallprint:
